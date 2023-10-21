@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+#clock{
+    top: 10px;
+    position: relative;
+    margin: auto;
+    border: 2px solid blanchedalmond;
+    background-attachment: blue;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+
+}
+
+#hr, #min, #sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+#hr{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+
+}
+#min{
+    width: 1%;
+    height: 30%;
+    top: 19%;
+    left: 48.85%;
+    opacity: 0.8;
+    
+    
+    
+}
+#sec{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.7;
+    
+    
+}
